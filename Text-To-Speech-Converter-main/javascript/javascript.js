@@ -1,4 +1,4 @@
-
+<script>
         // lets start this working
         // first get all languages list
         var voicelist = responsiveVoice.getVoices();
@@ -40,3 +40,4 @@
         canc.onclick = function() {
             responsiveVoice.cancel();
         }
+</script>
