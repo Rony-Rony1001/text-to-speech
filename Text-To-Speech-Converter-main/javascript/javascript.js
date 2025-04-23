@@ -31,7 +31,7 @@
             }
         }
         resume.onclick = function() {
-            if(responsiveVoice.isPlaying()){
+            if(responsiveVoice.isPaused()){
                 responsiveVoice.resume();
                 pause.style.display = "inline";
                 resume.style.display = "none";
